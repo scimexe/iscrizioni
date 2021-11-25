@@ -2,7 +2,7 @@
 
 	class CDB{
 		private $host='127.0.0.1';
-		private $user='andrea';
+		private $user='root';
 		private $passwd='root';
 		private $nomeDB='inserzioni';
 		private $conn;
