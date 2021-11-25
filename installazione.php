@@ -1,5 +1,5 @@
 <?php
-	include "/var/www/html/newCDB.php";
+	include "/var/www/html/iscrizioni/newCDB.php";
 	
 	$inst=new CDB();
 	$r=$inst->test();
