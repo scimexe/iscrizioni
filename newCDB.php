@@ -8,7 +8,7 @@
 		private $conn;
 
         public function connessione(){
-            $this->conn = new mysqli($this->$host, $this->$user, $this->$passwd, $this->nomeDB);
+            $this->conn = new mysqli($this->host, $this->user, $this->passwd, $this->nomeDB);
             if($this->conn->connect_error){
                 die("Connessione fallita: " . $conn->connect_error);
             }
